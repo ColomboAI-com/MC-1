@@ -1,0 +1,7 @@
+# Internal fact-checking notes are intentionally excluded from the public information repository.
+research/
+
+# Local/editor artifacts.
+.DS_Store
+Thumbs.db
+*.tmp
