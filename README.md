@@ -2,7 +2,7 @@
   <img alt="ColomboAI MC-1 — Stop choosing models" src="assets/mc1-hero.png" width="100%">
 </p>
 
-<p align="center"><strong>Colombo-MC-1</strong></p>
+<p align="center"><big><strong>ColomboAI-MC-1</strong></big></p>
 
 <p align="center">
   <strong>Mixture-of-Models Intelligence for adaptive, cost-aware, policy-constrained AI inference.</strong>
