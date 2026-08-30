@@ -1,15 +1,15 @@
 <p align="center">
-  <img alt="ColomboAI MC-1 — Stop choosing models" src="assets/mc1-hero.png" width="100%">
+  <img alt="ColomboAI MC-1 — The Intelligence Control Plane" src="assets/mc1-hero-v2.png" width="100%">
 </p>
 
-<p align="center"><big><strong>ColomboAI-MC-1</strong></big></p>
+<p align="center"><big><strong>MC-1 by ColomboAI</strong></big></p>
 
 <p align="center">
-  <strong>Mixture-of-Models Intelligence for adaptive, cost-aware, policy-constrained AI inference.</strong>
+  <strong>The Intelligence Control Plane for adaptive, governed, economically accountable AI.</strong>
 </p>
 
 <p align="center">
-  One stable intelligence endpoint. A changing network of models, providers, and customer-controlled compute.
+  One stable control layer across models, providers, agents, policy, evaluation, economics, adaptation, and enterprise outcomes.
 </p>
 
 <p align="center">
@@ -75,19 +75,26 @@ See [the detailed MC-1 product map](docs/PRODUCT-SUITE.md) and [public capabilit
 
 ## What is MC-1?
 
-MC-1 is ColomboAI's **Mixture-of-Models (MOM) intelligence control plane**. Instead of permanently binding an application to one model or one inference vendor, MC-1 turns model and provider selection into a policy-aware runtime decision.
+MC-1 is ColomboAI's **Intelligence Control Plane**: the adaptive operating layer that determines what intelligence should be used, where it may execute, what it may cost, whether an agent is authorized to act, whether the result satisfies the request, and what evidence should be retained for governance and improvement.
 
-An application submits a task to the stable `colomboai/mc-1` intelligence profile. MC-1 can then:
+Mixture-of-Models is a foundational execution strategy inside MC-1, not the product's outer boundary. The platform now connects intelligence selection with provider execution, Agent Identity and Guard, evaluation, FinOps, tenant policy, adaptation, Everywhere compatibility, Forward transformation, customer operations, and restricted platform administration.
 
-1. understand the request and its execution requirements;
-2. enforce privacy, region, provider, budget, latency, and capability constraints;
-3. compare eligible model and provider routes;
-4. select an execution path according to the requested objective;
-5. execute with bounded retry and failover behavior;
-6. evaluate the returned result and escalate when policy permits;
-7. record route, usage, cost, and accounting evidence for the tenant.
+Applications can keep the OpenAI client pattern and submit a task to the stable `colomboai/mc-1` profile, select a verified model while retaining provider intelligence, or explicitly constrain eligible providers. For each request, MC-1 can:
 
-MC-1 does **not** claim that one model is universally best. Its core premise is that the best available intelligence is contextual: a function of the task, modality, operating policy, economics, latency target, privacy boundary, and current provider health.
+1. understand the task, modality, risk, output contract, and requested objective;
+2. resolve the authenticated organization, project, account, and—when required—signed Agent Identity;
+3. apply capability, privacy, sovereignty, region, provider, budget, latency, tool, and egress policy before optimization;
+4. plan a bounded execution strategy and rank only eligible model-provider routes;
+5. execute across customer/BYOK compute, approved direct providers, or coverage networks;
+6. preserve same-model provider failover before model escalation when policy permits;
+7. evaluate completion, structured output, and tool-call contracts before accepting or recovering the result;
+8. attribute usage, customer price, provider cost evidence, credits, and Cost per Successful Outcome where authoritative evidence exists;
+9. record a tenant-scoped Intelligence Trace containing route, plan, policy, evaluation, Guard, usage, and audit evidence without claiming prompt/response persistence;
+10. convert sufficiently supported outcomes into tenant-scoped memory, adaptation, or governed transformation signals.
+
+MC-1 ships each capability behind an explicit, documented maturity or availability boundary. See [Public capability status](docs/CAPABILITY-STATUS.md) for the dated authoritative product-state snapshot; use the authenticated Console for live tenant-specific availability.
+
+MC-1 does **not** claim that one model is universally best—or that intelligence automatically has authority. Its core premise is that the right execution is contextual: a function of the task, identity, modality, policy, economics, risk, latency, privacy, sovereignty, evaluation needs, provider health, and intended outcome.
 
 ## The idea in one diagram
 
