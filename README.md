@@ -17,7 +17,7 @@
   ·
   <a href="https://console.colomboai.com/MC-1/console"><strong>Open Console</strong></a>
   ·
-  <a href="paper/ColomboAI-MC-1-Mixture-of-Models-Preprint.pdf"><strong>Read the paper</strong></a>
+  <a href="paper/ColomboAI-Intelligence-Control-Plane-Flagship-v2.0.pdf"><strong>Read the flagship paper</strong></a>
   ·
   <a href="mailto:sales@colomboai.com"><strong>Request an enterprise briefing</strong></a>
 </p>
@@ -301,23 +301,21 @@ MC-1 is intended for teams that need more than a static model alias:
 
 ## Research paper
 
-**ColomboAI-MC-1: A Mixture-of-Models Intelligence System for Adaptive, Cost-Efficient, and Sovereign AI Inference**  
-Wilfried Kouadio and Andrew Li, ColomboAI / Cairo Lab. Preprint, August 14, 2026.
+**The Intelligence Control Plane: The Missing Operating Layer for the AI Economy**<br>
+Wilfried Kouadio and Andrew Li, ColomboAI / Cairo Lab. Flagship Category Paper / Preprint v2.0, August 2026.
 
-[Download the complete PDF](paper/ColomboAI-MC-1-Mixture-of-Models-Preprint.pdf)
+[Download the complete flagship paper](paper/ColomboAI-Intelligence-Control-Plane-Flagship-v2.0.pdf)
 
 The paper presents:
 
-- the distinction between Mixture-of-Experts and Mixture-of-Models;
-- Query Intelligence, Model Intelligence, constrained utility routing, cascading, deliberation, and self-evaluation;
-- a formal best-fixed-model, outcome-oracle, and realizable-router framework;
-- oracle recovery as a measure of captured model complementarity;
-- an evaluation protocol spanning quality, cost per correct answer, latency, calibration, regret, availability, and policy compliance;
-- sovereign, local-first, hybrid, and latency-critical policy patterns;
-- an explicit claim boundary and reproducibility agenda.
-
-> [!NOTE]
-> The preprint is an architecture and methods paper. Its conceptual Pareto diagram is illustrative, and the authors intentionally do not present unpublished MC-1 benchmark numbers as measured results. A future empirical release should disclose exact models, versions, prompts, inference settings, routing traces, price tables, held-out results, and evaluation code.
+- the shift from model endpoints to Intelligence Contracts and measurable Outcome Contracts;
+- MC-1 v2.0's Intelligence, Economic, and Transformation control loops within one identity, policy, governance, and sovereignty trust envelope;
+- Query Intelligence, Model Intelligence, Mixture-of-Models routing, elastic reasoning, evaluation, correction, and adaptive improvement;
+- MC-1 Intelligence FinOps, token-maxing prevention, runtime budgets, provider economics, and Cost per Successful Outcome;
+- MC-1 Forward, the Enterprise Intelligence Graph, opportunity discovery, governed transformation, bounded autonomy, and the Transformation Sandbox;
+- Agent Identity and Agent Guard as the non-bypassable authority boundary for agents, tools, enterprise changes, and future physical AI;
+- Outcome Contracts and the Enterprise AI Outcome Ledger for connecting intelligence consumption to measurable operational and business outcomes;
+- the category's competitive surface, compounding Intelligence/Trust/Transformation graphs, evidence requirements, manifesto, and research agenda.
 
 ## Product access
 
