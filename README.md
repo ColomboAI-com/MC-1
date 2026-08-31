@@ -1,21 +1,23 @@
 <p align="center">
-  <img alt="ColomboAI MC-1 — Stop choosing models" src="assets/mc1-hero.png" width="100%">
+  <img alt="ColomboAI MC-1 — The Intelligence Control Plane" src="assets/mc1-hero-v2.png" width="100%">
 </p>
 
-<p align="center"><big><strong>ColomboAI-MC-1</strong></big></p>
+<p align="center"><big><strong>MC-1 by ColomboAI</strong></big></p>
 
 <p align="center">
-  <strong>Mixture-of-Models Intelligence for adaptive, cost-aware, policy-constrained AI inference.</strong>
-</p>
-
-<p align="center">
-  One stable intelligence endpoint. A changing network of models, providers, and customer-controlled compute.
+  <strong>The Intelligence Control Plane for adaptive, governed, economically accountable AI.</strong>
 </p>
 
 <p align="center">
-  <a href="https://colomboai-mc1-intelligence.wilkont.chatgpt.site/"><strong>Open MC-1</strong></a>
+  One stable control layer across models, providers, agents, policy, evaluation, economics, adaptation, and enterprise outcomes.
+</p>
+
+<p align="center">
+  <a href="https://colomboai.com/MC-1"><strong>Explore MC-1</strong></a>
   ·
-  <a href="paper/ColomboAI-MC-1-Mixture-of-Models-Preprint.pdf"><strong>Read the paper</strong></a>
+  <a href="https://console.colomboai.com/MC-1/console"><strong>Open Console</strong></a>
+  ·
+  <a href="paper/ColomboAI-Intelligence-Control-Plane-Flagship-v2.0.pdf"><strong>Read the flagship paper</strong></a>
   ·
   <a href="mailto:sales@colomboai.com"><strong>Request an enterprise briefing</strong></a>
 </p>
@@ -25,21 +27,74 @@
 
 ---
 
+## Official MC-1 surfaces
+
+| Surface | Official location | Purpose |
+|---|---|---|
+| **MC-1 product** | [colomboai.com/MC-1](https://colomboai.com/MC-1) | Platform, enterprise, developer, pricing, and Forward product pages |
+| **MC-1 Console** | [console.colomboai.com/MC-1/console](https://console.colomboai.com/MC-1/console) | Authenticated projects, Playground, routes, policies, usage, billing, adaptation, and operations |
+| **MC-1 API** | `https://api.colomboai.com/v1` | OpenAI-compatible and MC-1 intelligence APIs |
+| **Admin Control Center** | [console.colomboai.com/admin](https://console.colomboai.com/admin) | Restricted ColomboAI platform operations; a normal customer account does not grant access |
+
+MC-1 account access is first-party ColomboAI authentication. The Console supports email verification and configured SSO, issues a secure MC-1/Cairo identity token, and resolves application users, organizations, projects, and memberships from MC-1's own authoritative data stores. OpenAI or ChatGPT identity is not the MC-1 account database.
+
+## The MC-1 product system
+
+MC-1 has grown from a model router into a connected intelligence-control product family:
+
+The status column below is a compact orientation. [Public capability status](docs/CAPABILITY-STATUS.md) is the authoritative maturity vocabulary for this repository.
+
+| Product or control layer | What it does | Current boundary |
+|---|---|---|
+| **MC-1 Intelligence Control Plane** | Understands a task, enforces identity and policy, budgets the execution, selects eligible model/provider routes, evaluates outcomes, and records evidence | Core inference production; advanced intelligence capabilities mature independently |
+| **Query, Execution, Model & Provider Intelligence** | Classifies requests, plans bounded execution, separates model fit from provider fit, and ranks only executable, policy-compliant routes | OpenAI-compatible routing is production; Query and Execution Intelligence are beta |
+| **MC-1 Console** | Provides Playground, projects, API keys, routing traces, models, providers, policies, billing, teams, support, Forward, and adaptation surfaces | Production, with capability-specific configuration gates |
+| **MC-1 Everywhere** | Brings `colomboai/mc-1` to OpenAI-compatible agents, coding tools, harnesses, SDKs, and orchestration frameworks through verified recipes and compatibility evidence | Staged compatibility program; integration-specific production status is always stated |
+| **MC-1 Forward** | Extends MC-1 from intelligence execution into governed enterprise discovery and transformation | Staged read-only discovery foundation; consequential write autonomy remains gated |
+| **Agent Identity & Agent Guard** | Binds agent claims to a tenant and principal, checks exact permissions, and blocks unauthorized tool or advanced-runtime execution before provider spend | Beta and fail-closed |
+| **Adaptive Intelligence** | Compares route-versus-train economics, governs authorized training, captures lineage, evaluates challengers, and supports canary-first specialization | Staged; live training and export remain provider/policy gated |
+| **Advanced Runtime** | Governs replanning, multimodal pipelines, deliberation, Guard Edge, and Physical AI through authenticated customer-compute runtimes | Staged and external-runtime gated; never inferred from a model name |
+| **FinOps, Billing & Enterprise Control** | Coordinates budgets, prepaid credits, provider cost evidence, BYOK separation, plans, audit, sovereignty, and organization policy | Production foundations; provider- and contract-specific features remain explicit |
+| **Admin Control Center** | Gives authorized ColomboAI operators cross-tenant operational, security, finance, routing, CRM, Everywhere, and incident views with narrow RBAC | Production internal surface; sensitive or unverified mutations fail closed |
+
+See [the detailed MC-1 product map](docs/PRODUCT-SUITE.md) and [public capability status](docs/CAPABILITY-STATUS.md) for boundaries that do not fit in a headline.
+
+## What is new in the current platform
+
+- **One ColomboAI identity boundary:** customer Console and restricted Admin access now use the same first-party account flow and authoritative MC-1 data model.
+- **Intelligence Trace 3.0:** route, execution-plan, model/provider, evaluation, Guard, usage, and policy evidence share coherent route and trace identifiers.
+- **Model and provider separation:** MC-1 can keep a selected model while failing over across eligible providers before escalating to another model.
+- **Guarded agent execution:** signed Agent Identity, tenant binding, exact tool permissions, schema validation, and policy checks happen before privileged execution.
+- **Adaptive route-versus-train decisions:** routing, experiments, training, checkpoints, lineage, evaluation, canaries, production promotion, reconciliation, and retirement share one governed lifecycle.
+- **MC-1 Everywhere evidence:** integrations are validated against released hosts and public configuration seams; synthetic compatibility is never mislabeled as authenticated production support.
+- **MC-1 Forward foundation:** tenant-scoped workspaces, read-only discovery, connectors, transformation graphs, provenance, confidence, and opportunity models are separated from gated autonomy.
+- **Operational control:** the Admin Control Center exposes source-backed executive, customer, provider, security, finance, Everywhere, partner, enterprise, and system-health projections without substituting demo data.
+- **Truthful rollout states:** unavailable, configuration-required, configured, connected, beta, staged, and production are distinct states across the platform.
+
+---
+
 ## What is MC-1?
 
-MC-1 is ColomboAI's **Mixture-of-Models (MOM) intelligence control plane**. Instead of permanently binding an application to one model or one inference vendor, MC-1 turns model and provider selection into a policy-aware runtime decision.
+MC-1 is ColomboAI's **Intelligence Control Plane**: the adaptive operating layer that determines what intelligence should be used, where it may execute, what it may cost, whether an agent is authorized to act, whether the result satisfies the request, and what evidence should be retained for governance and improvement.
 
-An application submits a task to the stable `colomboai/mc-1` intelligence profile. MC-1 can then:
+Mixture-of-Models is a foundational execution strategy inside MC-1, not the product's outer boundary. The platform now connects intelligence selection with provider execution, Agent Identity and Guard, evaluation, FinOps, tenant policy, adaptation, Everywhere compatibility, Forward transformation, customer operations, and restricted platform administration.
 
-1. understand the request and its execution requirements;
-2. enforce privacy, region, provider, budget, latency, and capability constraints;
-3. compare eligible model and provider routes;
-4. select an execution path according to the requested objective;
-5. execute with bounded retry and failover behavior;
-6. evaluate the returned result and escalate when policy permits;
-7. record route, usage, cost, and accounting evidence for the tenant.
+Applications can keep the OpenAI client pattern and submit a task to the stable `colomboai/mc-1` profile, select a verified model while retaining provider intelligence, or explicitly constrain eligible providers. For each request, MC-1 can:
 
-MC-1 does **not** claim that one model is universally best. Its core premise is that the best available intelligence is contextual: a function of the task, modality, operating policy, economics, latency target, privacy boundary, and current provider health.
+1. understand the task, modality, risk, output contract, and requested objective;
+2. resolve the authenticated organization, project, account, and—when required—signed Agent Identity;
+3. apply capability, privacy, sovereignty, region, provider, budget, latency, tool, and egress policy before optimization;
+4. plan a bounded execution strategy and rank only eligible model-provider routes;
+5. execute across customer/BYOK compute, approved direct providers, or coverage networks;
+6. preserve same-model provider failover before model escalation when policy permits;
+7. evaluate completion, structured output, and tool-call contracts before accepting or recovering the result;
+8. attribute usage, customer price, provider cost evidence, credits, and Cost per Successful Outcome where authoritative evidence exists;
+9. record a tenant-scoped Intelligence Trace containing route, plan, policy, evaluation, Guard, usage, and audit evidence without claiming prompt/response persistence;
+10. convert sufficiently supported outcomes into tenant-scoped memory, adaptation, or governed transformation signals.
+
+MC-1 ships each capability behind an explicit, documented maturity or availability boundary. See [Public capability status](docs/CAPABILITY-STATUS.md) for the dated authoritative product-state snapshot; use the authenticated Console for live tenant-specific availability.
+
+MC-1 does **not** claim that one model is universally best—or that intelligence automatically has authority. Its core premise is that the right execution is contextual: a function of the task, identity, modality, policy, economics, risk, latency, privacy, sovereignty, evaluation needs, provider health, and intended outcome.
 
 ## The idea in one diagram
 
@@ -47,11 +102,11 @@ MC-1 does **not** claim that one model is universally best. Its core premise is 
 flowchart LR
     A["Application or agent"] --> B["MC-1 stable intelligence endpoint"]
     B --> C["Query Intelligence"]
-    C --> D["Policy and constraint engine"]
-    D --> E["Model Intelligence Layer"]
-    E --> F["Utility router"]
-    F --> G["Model selection"]
-    G --> H["Provider selection"]
+    C --> D["Agent Identity and Guard"]
+    D --> E["Policy, sovereignty, and budget"]
+    E --> F["Execution Intelligence"]
+    F --> G["Model Intelligence"]
+    G --> H["Provider Intelligence"]
     H --> I{"Execution fabric"}
     I --> J["Customer or BYOK compute"]
     I --> K["Direct managed providers"]
@@ -59,7 +114,8 @@ flowchart LR
     J --> M["Evaluation and telemetry"]
     K --> M
     L --> M
-    M --> N["Response, route evidence, and usage"]
+    M --> N["Response, trace, usage, and audit evidence"]
+    M --> O["Memory and adaptation signals"]
 ```
 
 The architecture separates two questions that are often conflated:
@@ -140,7 +196,7 @@ These products solve different layers of the inference stack. The table is inten
 
 | Product | Primary role | Cross-provider abstraction | Request-level model intelligence | Local / self-hosted path | Policy-aware route constraints | Financial control-plane scope |
 |---|---|---:|---:|---:|---:|---:|
-| **Cairo.sh / MC-1** | Provider-independent Mixture-of-Models control plane | **Yes** | **Core product concept**: task, capability, objective, confidence, and policy signals | **Yes**, through customer/private OpenAI-compatible compute | **Core product concept** | Credits, reservations, usage ledger, provider attempts/payables, and settlement evidence |
+| **ColomboAI MC-1** | Provider-independent Mixture-of-Models intelligence control plane | **Yes** | **Core product concept**: task, capability, objective, confidence, identity, evaluation, and policy signals | **Yes**, through customer/private OpenAI-compatible compute | **Core product concept** | Credits, reservations, usage ledger, provider attempts/payables, and settlement evidence |
 | **OpenRouter** | Hosted unified API and routing layer across many models/providers | **Yes** | Offers routers including automatic model selection; also provides strong provider-routing controls | Not a local model runtime; custom/provider routes depend on its supported network and integrations | Provider preferences, fallbacks, parameter requirements, and data-policy controls | Centralized usage/credit accounting for OpenRouter traffic |
 | **Ollama** | Local model packaging and runtime | No hosted multi-provider network | Model choice is generally caller/operator driven | **Core product concept** | Primarily local runtime controls rather than a cross-provider enterprise policy plane | No managed provider-payable settlement plane |
 | **Nebius Token Factory** | Managed AI inference platform/provider | Models are served within the Nebius platform | Caller selects among available endpoints/models; not positioned as a provider-neutral MOM control plane | Dedicated and managed deployment options; not a desktop local runtime | Provider/platform deployment controls | Provider-native consumption and billing |
@@ -252,39 +308,36 @@ MC-1 is intended for teams that need more than a static model alias:
 
 ## Research paper
 
-**ColomboAI-MC-1: A Mixture-of-Models Intelligence System for Adaptive, Cost-Efficient, and Sovereign AI Inference**  
-Wilfried Kouadio and Andrew Li, ColomboAI / Cairo Lab. Preprint, August 14, 2026.
+**The Intelligence Control Plane: The Missing Operating Layer for the AI Economy**<br>
+Wilfried Kouadio and Andrew Li, ColomboAI / Cairo Lab. Flagship Category Paper / Preprint v2.0, August 2026.
 
-[Download the complete PDF](paper/ColomboAI-MC-1-Mixture-of-Models-Preprint.pdf)
+[Download the complete flagship paper](paper/ColomboAI-Intelligence-Control-Plane-Flagship-v2.0.pdf)
 
 The paper presents:
 
-- the distinction between Mixture-of-Experts and Mixture-of-Models;
-- Query Intelligence, Model Intelligence, constrained utility routing, cascading, deliberation, and self-evaluation;
-- a formal best-fixed-model, outcome-oracle, and realizable-router framework;
-- oracle recovery as a measure of captured model complementarity;
-- an evaluation protocol spanning quality, cost per correct answer, latency, calibration, regret, availability, and policy compliance;
-- sovereign, local-first, hybrid, and latency-critical policy patterns;
-- an explicit claim boundary and reproducibility agenda.
-
-> [!NOTE]
-> The preprint is an architecture and methods paper. Its conceptual Pareto diagram is illustrative, and the authors intentionally do not present unpublished MC-1 benchmark numbers as measured results. A future empirical release should disclose exact models, versions, prompts, inference settings, routing traces, price tables, held-out results, and evaluation code.
+- the shift from model endpoints to Intelligence Contracts and measurable Outcome Contracts;
+- MC-1 v2.0's Intelligence, Economic, and Transformation control loops within one identity, policy, governance, and sovereignty trust envelope;
+- Query Intelligence, Model Intelligence, Mixture-of-Models routing, elastic reasoning, evaluation, correction, and adaptive improvement;
+- MC-1 Intelligence FinOps, token-maxing prevention, runtime budgets, provider economics, and Cost per Successful Outcome;
+- MC-1 Forward, the Enterprise Intelligence Graph, opportunity discovery, governed transformation, bounded autonomy, and the Transformation Sandbox;
+- Agent Identity and Agent Guard as the non-bypassable authority boundary for agents, tools, enterprise changes, and future physical AI;
+- Outcome Contracts and the Enterprise AI Outcome Ledger for connecting intelligence consumption to measurable operational and business outcomes;
+- the category's competitive surface, compounding Intelligence/Trust/Transformation graphs, evidence requirements, manifesto, and research agenda.
 
 ## Product access
 
-- **MC-1 platform:** [Launch Cairo.sh / MC-1](https://colomboai-mc1-intelligence.wilkont.chatgpt.site/)
-- **Cairo:** [cairo.sh](https://cairo.sh/)
+- **MC-1 platform:** [colomboai.com/MC-1](https://colomboai.com/MC-1)
+- **MC-1 Console:** [console.colomboai.com/MC-1/console](https://console.colomboai.com/MC-1/console)
+- **Developers:** [colomboai.com/MC-1/developers](https://colomboai.com/MC-1/developers)
+- **Enterprise:** [colomboai.com/MC-1/enterprise](https://colomboai.com/MC-1/enterprise)
 - **ColomboAI:** [colomboai.com](https://colomboai.com/)
 - **Enterprise and provider inquiries:** [sales@colomboai.com](mailto:sales@colomboai.com)
 
 ## Current public status
 
-- The MC-1 control plane is deployed.
-- Production health reports the database ready and inference providers configured.
-- Canonical MC-1 profiles include efficient, reasoning, and multimodal operating profiles.
-- Profile values labeled as operator configuration are not represented as measured benchmark results.
-- Specific providers, models, modalities, prices, and regions can change as mappings are verified and operating conditions evolve.
-- A successful readiness check confirms configuration, not universal model availability or completion of every enterprise certification.
+The dated, authoritative public snapshot is maintained in [Public capability status](docs/CAPABILITY-STATUS.md). The MC-1 control plane, customer Console, and restricted Admin Control Center are deployed on official ColomboAI domains, and production readiness currently reports the database, authentication, routing, inference, providers, billing, and pricing configured. That readiness confirms the current deployment configuration—not universal model availability, integration maturity, customer entitlement, or completion of every enterprise certification.
+
+Model/profile values labeled as operator configuration are not represented as measured benchmark results. Providers, models, modalities, prices, regions, and rollout gates can change as mappings and operating conditions evolve; use the authenticated Console for live tenant-specific state.
 
 ## Frequently asked questions
 
@@ -311,6 +364,18 @@ Not necessarily. OpenRouter can be an eligible coverage network inside MC-1. MC-
 ### Can customers bring their own provider?
 
 The architecture supports customer-controlled OpenAI-compatible endpoints. BYOK compute remains financially separated from ColomboAI-managed provider payables.
+
+### What is MC-1 Everywhere?
+
+Everywhere is MC-1's compatibility program for agents, coding tools, harnesses, frameworks, and SDKs that expose a supported OpenAI-compatible configuration seam. Every integration keeps its own evidence and maturity boundary; a synthetic released-host proof is not presented as authenticated production support.
+
+### What is MC-1 Forward?
+
+Forward extends MC-1 into governed enterprise discovery and transformation. Its current public foundation is read-only and evidence oriented. Production-changing autonomy remains gated by identity, Guard, organization policy, approvals, evaluation, cost authorization, audit, and rollback.
+
+### Does the Admin Control Center use a separate ChatGPT account?
+
+No. MC-1 customer and platform-operator surfaces use the first-party ColomboAI account flow and MC-1's authoritative user and organization data. Admin access adds a separate server-side platform role; signing in as a normal MC-1 owner does not grant cross-tenant administration.
 
 ### Is the MC-1 source code in this repository?
 
@@ -344,11 +409,11 @@ For security-sensitive reports, do not open a public issue. Contact [sales@colom
 ---
 
 <p align="center">
-  <img src="assets/cairo-icon-gradient.png" alt="Cairo" width="112">
+  <img src="assets/cairo-icon-gradient.png" alt="ColomboAI" width="112">
 </p>
 
 <p align="center">
-  <strong>Built by ColomboAI · Cairo Lab</strong><br>
+  <strong>Built by ColomboAI</strong><br>
   Intelligence should be selected at runtime, governed by policy, and measured by outcomes.
 </p>
 
