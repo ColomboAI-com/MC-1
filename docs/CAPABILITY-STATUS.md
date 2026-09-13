@@ -1,6 +1,6 @@
 # Public capability status
 
-Last updated: August 30, 2026.
+Last updated: September 12, 2026.
 
 This status separates shipped foundations from configured, connected, beta, staged, and externally gated capability. It is a public product boundary, not an uptime report or certification statement.
 
@@ -12,6 +12,9 @@ This status separates shipped foundations from configured, connected, beta, stag
 | Deterministic response evaluation | Beta | Completion, JSON, and tool-call contracts where applicable |
 | Intelligence Trace 3.0 | Production | Route, plan, evaluation, Guard, policy, usage, and operational evidence; shipped foundation does not imply prompt/response persistence |
 | Agent Identity and Agent Guard | Beta | Signed tenant/principal binding and exact privileged-tool authorization; fail-closed |
+| AATS v0.9 | Draft in preparation | Proposed, implementation-independent requirements; no accreditation, certification, or standards-body endorsement implied |
+| MC-1 Trust | Proposed / staged | Inventory, evidence, assurance, Registry, Passport, evaluator and certification flows require component-level implementation and verification before public availability claims |
+| Agent Guard Edge | Staged | Connected-runtime enforcement requires authenticated edge, exact permissions, and proof of enforcement; no universal containment claim |
 | Intelligence Memory | Experimental | Tenant-scoped evaluated signals after evidence thresholds; no cross-tenant learning claim |
 | Adaptive Intelligence | Staged | Route-versus-train, lineage, evaluation, canary, reconciliation, and retirement foundations |
 | Live training, RL, and export | Provider/policy gated | Requires authorized data, storage, budget, credentials, provider contracts, and rollout flags |

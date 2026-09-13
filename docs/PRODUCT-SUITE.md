@@ -47,6 +47,14 @@ Agent Identity carries signed, expiring claims about the actor, principal, deleg
 
 Forged, expired, modified, cross-tenant, or insufficient identities fail closed. A model's name or advertised capability never authorizes a tool, edge device, or physical action.
 
+## MC-1 Trust and AATS
+
+MC-1 Trust is the proposed continuous assurance product for AI systems and autonomous agents. AATS, the AI & Agentic Trust Standard, is its implementation-independent requirements framework. The intended chain is: MC-1 governs intelligence decisions; Agent Identity names the actor; Agent Guard authorizes actions; Guard Edge carries enforcement to connected execution environments; AATS defines required controls; MC-1 Trust collects and evaluates evidence of continuing conformity.
+
+The proposed Trust family includes AI Inventory, Agent Registry, AI Data Map, Permission Graph, Evidence Vault, Trust Policies and Events, Continuous Assurance, Trust Passport, public Registry, evaluator portal, red-team evidence, Trust API, certification workflow, compliance crosswalks, Vendor Trust, and Consumer AI Trust. These are **product scope**, not a claim that each surface is deployed or certified. See [the Trust overview](TRUST.md) and [capability status](CAPABILITY-STATUS.md).
+
+AATS must be usable by other implementations. Independent evaluators must retain authority over their own findings, while identity, evidence, certification status, and revocation remain verifiable by relying parties.
+
 ## Adaptive Intelligence
 
 Adaptive Intelligence treats routing and specialization as one governed decision. It routes when an existing eligible model meets the objective, recommends a bounded experiment when evidence is incomplete, and permits training only when data authorization, policy, budget, provider, sovereignty, quality, latency, and economic gates pass.
