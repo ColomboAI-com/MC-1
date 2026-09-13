@@ -52,12 +52,17 @@ The status column below is a compact orientation. [Public capability status](doc
 | **MC-1 Everywhere** | Brings `colomboai/mc-1` to OpenAI-compatible agents, coding tools, harnesses, SDKs, and orchestration frameworks through verified recipes and compatibility evidence | Staged compatibility program; integration-specific production status is always stated |
 | **MC-1 Forward** | Extends MC-1 from intelligence execution into governed enterprise discovery and transformation | Staged read-only discovery foundation; consequential write autonomy remains gated |
 | **Agent Identity & Agent Guard** | Binds agent claims to a tenant and principal, checks exact permissions, and blocks unauthorized tool or advanced-runtime execution before provider spend | Beta and fail-closed |
+| **MC-1 Trust and AATS** | Defines a proposed continuous assurance framework for AI systems and agents, with identity, authorization, evidence, independent evaluation, and machine-readable trust as the intended product scope | AATS v0.9 draft in preparation; Trust product components remain proposed or staged until individually verified |
 | **Adaptive Intelligence** | Compares route-versus-train economics, governs authorized training, captures lineage, evaluates challengers, and supports canary-first specialization | Staged; live training and export remain provider/policy gated |
 | **Advanced Runtime** | Governs replanning, multimodal pipelines, deliberation, Guard Edge, and Physical AI through authenticated customer-compute runtimes | Staged and external-runtime gated; never inferred from a model name |
 | **FinOps, Billing & Enterprise Control** | Coordinates budgets, prepaid credits, provider cost evidence, BYOK separation, plans, audit, sovereignty, and organization policy | Production foundations; provider- and contract-specific features remain explicit |
 | **Admin Control Center** | Gives authorized ColomboAI operators cross-tenant operational, security, finance, routing, CRM, Everywhere, and incident views with narrow RBAC | Production internal surface; sensitive or unverified mutations fail closed |
 
 See [the detailed MC-1 product map](docs/PRODUCT-SUITE.md) and [public capability status](docs/CAPABILITY-STATUS.md) for boundaries that do not fit in a headline.
+
+### MC-1 Trust
+
+**Trust Infrastructure for Autonomous Intelligence.** MC-1 Trust is the proposed continuous trust layer around AI deployments and autonomous agents. AATS—the **AI & Agentic Trust Standard**—defines requirements independently of any MC-1 implementation. [Read the Trust overview](docs/TRUST.md), including the intended architecture, evidence model, and current maturity boundary.
 
 ## What is new in the current platform
 
